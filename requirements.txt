@@ -3,3 +3,4 @@ webdriver-manager
 pytest
 allure-pytest
 pytest-html
+pymysql
