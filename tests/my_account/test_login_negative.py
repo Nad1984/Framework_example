@@ -1,7 +1,7 @@
 from time import sleep
 
 import pytest
-from ssqamytest.src.pages.MyAccountSignedOut import MyAccountSignedOut
+from src.pages.MyAccountSignedOut import MyAccountSignedOut
 
 
 @pytest.mark.usefixtures("init_driver")
