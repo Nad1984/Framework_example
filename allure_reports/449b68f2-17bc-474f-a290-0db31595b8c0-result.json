@@ -1,1 +1,0 @@
-{"name": "test_login_none_existing_user", "status": "passed", "start": 1699439435723, "stop": 1699439452469, "uuid": "4250e23e-7aae-4952-b1f9-4fc917f36fcb", "testCaseId": "af0b267ea6eb8ea07fd08fbf956062f9", "fullName": "ssqamytest.tests.my_account.test_login_negative.TestLoginNegative#test_login_none_existing_user"}

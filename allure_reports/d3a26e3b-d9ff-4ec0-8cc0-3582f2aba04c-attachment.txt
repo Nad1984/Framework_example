@@ -1,2 +1,0 @@
-I am dummy test line 1.
-I am dummy test line 2.
