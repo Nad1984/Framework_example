@@ -1,13 +1,13 @@
 import time
 
 import pytest
-from src.configs.generic_configs import GenericConfigs
-from src.pages.HomePage import HomePage
-from src.pages.Header import Header
-from src.pages.CartPage import CartPage
-from src.pages.CheckoutPage import CheckoutPage
-from src.pages.OrderReceivedPage import OrderReceivedPage
-from src.helpers.database_helpers import get_order_from_db_by_order_no
+from ssqamytest.src.configs.generic_configs import GenericConfigs
+from ssqamytest.src.pages.HomePage import HomePage
+from ssqamytest.src.pages.Header import Header
+from ssqamytest.src.pages.CartPage import CartPage
+from ssqamytest.src.pages.CheckoutPage import CheckoutPage
+from ssqamytest.src.pages.OrderReceivedPage import OrderReceivedPage
+from ssqamytest.src.helpers.database_helpers import get_order_from_db_by_order_no
 
 
 @pytest.mark.usefixtures('init_driver')

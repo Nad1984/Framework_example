@@ -1,9 +1,9 @@
 import time
 
 import pytest
-from src.pages.MyAccountSignedOut import MyAccountSignedOut
-from src.helpers.generic_helpers import generate_random_email, generate_random_password
-from src.pages.MyAccountSignedIn import MyAccountSignedIn
+from ssqamytest.src.pages.MyAccountSignedOut import MyAccountSignedOut
+from ssqamytest.src.helpers.generic_helpers import generate_random_email, generate_random_password
+from ssqamytest.src.pages.MyAccountSignedIn import MyAccountSignedIn
 
 
 @pytest.mark.usefixtures("init_driver")
