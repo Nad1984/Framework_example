@@ -1,7 +1,7 @@
 import pymysql
 from pymysql.cursors import DictCursor
-from ssqamytest.src.helpers.config_helpers import get_database_credentials
-from ssqamytest.src.configs.generic_configs import GenericConfigs
+from src.helpers.config_helpers import get_database_credentials
+from src.configs.generic_configs import GenericConfigs
 
 
 def read_from_db(sql_query):
