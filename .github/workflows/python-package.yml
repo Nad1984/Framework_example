@@ -33,7 +33,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest --html=report.html --self-contained-html
+        pytest --html=ssqamytest/results/report.html --self-contained-html
     - uses: actions/upload-artifact@v4
       if: always()
       with:
